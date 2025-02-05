@@ -1,3 +1,10 @@
-hello 
+hello
 devops new btach
 devops practice session
+pipeline {
+  agent any {
+  tools:
+  stages {
+     stage ("build" {
+       sh 'mvn build' {
+     }

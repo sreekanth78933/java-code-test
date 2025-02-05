@@ -1,6 +1,7 @@
 hello
 devops new btach
 devops practice session
+
 pipeline {
   agent any {
   tools:
@@ -8,3 +9,6 @@ pipeline {
      stage ("build" {
        sh 'mvn build' {
      }
+
+amazon project -> release code 1.0 version to the end user
+
